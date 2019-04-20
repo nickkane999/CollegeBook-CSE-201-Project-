@@ -1,0 +1,84 @@
+.Header {
+	position: left;
+	background: #ee9ca7; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #ee9ca7 , #ffdde1); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #ee9ca7 , #ffdde1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+}
+
+html, body {
+    width  : 100%;
+    height : 100%;
+}
+
+.loginForm .field { 
+	margin-bottom: 20px;
+	display: block;
+}
+
+.profileForm .field {
+	margin-bottom: 20px;
+	display: block;	
+}
+
+input[type=file] {
+	display:inline;
+}
+
+.uploadImg { 
+	margin: 20px 0;
+}
+
+.infoBox{ display:none; }
+
+.post-container { margin-bottom:20px; }
+
+#overlay-back {
+    position   : absolute;
+    top        : 0;
+    left       : 0;
+    width      : 100%;
+    height     : 100%;
+    background : #000;
+    opacity    : 0.6;
+    filter     : alpha(opacity=60);
+    z-index    : 5;
+    display    : none;
+}
+
+#overlay {
+    position : absolute;
+    top      : 0;
+    left     : 0;
+    width    : 100%;
+    height   : 100%;
+    z-index  : 10;
+    display  : none;
+} 
+.subitem {
+	display: none;
+	list-style-type: none;
+}
+
+.item { list-style-type: none; }
+
+.requiredText { color: goldenrod; }
+
+.finishedText { color: Blue; }
+
+.missedText { color: Red; }
+
+.excusedText { color: rgb(33,108,42); }
+
+.extraText { color: #DF3D82; }
+
+.connectionsList { list-style-type: none; }
+
+.requestsList { list-style-type: none; }
+
+.addFriendButton, .buttonDesign1 {
+	background-color:#63ffa9;
+	padding:10px;
+    border:2px solid #04cc5d;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
